@@ -1,10 +1,11 @@
 import React from 'react'
+import Navbar from './Navbar'
 
 const InsertCourse = () => {
   return (
     <div>
         <div>
-            
+            <Navbar/>
             <h1 className="text-center">INSERT COURSE</h1>
 
             <div className="container">
