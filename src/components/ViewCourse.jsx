@@ -1,5 +1,6 @@
 import axios from 'axios'
 import React, { useEffect, useState } from 'react'
+import Navbar from './Navbar'
 
 const ViewCourse = () => {
         const [data,changeData]=useState([])
@@ -19,7 +20,7 @@ const ViewCourse = () => {
 <div>
 
             
-
+            <Navbar/>
             <div className="container">
 
                 <h1 className="text-center mt-4">
