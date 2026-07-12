@@ -15,13 +15,13 @@ const InsertCourse = () => {
   }
   const readValue = ()=>{
     console.log(input)
-    axios.post("https://host-demo-app.onrender.com/api/add-cours",input).then(
+    axios.post("https://host-demo-app.onrender.com/api/add-course",input).then(
       (response) =>{
         console.log(response.data)
         alert("course add successfully")
       }
     ).catch(
-      alert("course not add")
+      
     )
   }
   return (
