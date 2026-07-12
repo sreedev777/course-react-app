@@ -1,5 +1,6 @@
 import axios from "axios";
 import React, { useState } from "react";
+import Navbar from "./Navbar";
 
 const InsertCourse = () => {
   const [input, changeInput] = useState({
@@ -26,6 +27,7 @@ const InsertCourse = () => {
   return (
     <div>
       <div>
+          <Navbar/>
         <h1 className="text-center">INSERT COURSE</h1>
     
         <div className="container">
